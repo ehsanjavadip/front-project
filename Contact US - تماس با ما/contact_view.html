@@ -1,0 +1,64 @@
+<!-- Coding with [HTML] by Ehsan Javadi for {contact_view.html} | (C) 2022 -->
+<!DOCTYPE html>
+<html lang="en_US/fa_IR" manifest="" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Contact,Form,PHP,DataBase" />
+    <meta name="description" content="a Contact Form using PHP to Send Datas to DB" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact Form | Ehsan Javadi</title>
+
+    <style>
+        body { font-family: Vazir; color: white; background-image: url('./images/DubaiFrame.jpg'); background-size: cover;}
+        p {margin-top: -15px;}
+        input, textarea::placeholder {font-family: Vazir; margin: 3px;}
+        textarea {font-family: Vazir;}
+        input[type="email"] {width: 200px;}
+        input[type="submit"] {cursor: pointer;}
+    </style>
+</head>
+<body text="black" vlink="gray" alink="green" link="red" onload="">
+    <!-- Contact Form Here : -->
+    <h1>تماس با ما :</h1>
+    <p>در این فرم می توانید اطلاعات خود را جهت ارتباط با ما و همچنین پیام اصلی خود را برای ما ارسال کنید. نگران نباشید به زودی به شما پاسخ خواهیم داد</p>
+
+    <!-- Main Form -->
+    <fieldset>
+        <legend>فرم تماس با ما</legend>
+        <!-- ------------------ -->
+        <caption>اطلاعات خود را جهت ارسال پیام وارد کنید....</caption>
+        <hr />
+
+        <!-- -------------- -->
+        <form action="contact_controller.php" method="POST" name="frm_contact">
+
+          <label for="txtnamefamily">نام و نام خانوادگی :</label>
+          <input type="text" name="txtnamefamily" id="txtnamefamily" placeholder="مثال : علی حیدری" required/>
+          <br />
+
+          <label for="txtemail">ایمیل :</label>
+          <input type="email" name="txtemail" id="txtemail" placeholder="مثال : ehsanjavadi@gmail.com" required/>
+          <br />
+
+          <label for="txtsubject">موضوع پیام :</label>
+          <input type="text" name="txtsubject" id="txtsubject" placeholder="مثال : مشکل پروفایل کاربری" required/>
+          <br />
+          <br />
+
+          <label for="txtmessage" style="vertical-align: top;">متن پیام :</label>
+          <textarea name="txtmessage" id="txtmessage" cols="30" rows="5" placeholder="متن پیام شما" required></textarea>
+          <br />
+
+          <label for="chkimportant">پیام من فوری است</label>
+          <input type="checkbox" name="chkimportant" id="chkimportant"/>
+          <br />
+
+          <hr />
+          <input type="submit" value="ارسال پیام" name="btnsubmit" />
+        </form>
+
+    </fieldset>
+
+</body>
+</html>
+<!-- Developed by Ehsan Javadi with LOVE & COFFEE in Esfahan/Iran -->
