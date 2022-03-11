@@ -1,0 +1,33 @@
+/* Code with [CSS] by Ehsan Javadi | (C) 2022 */
+@import url(./fonts.css);
+
+/* Variables */
+:root {
+    --font-family: Vazir;
+}
+
+body {background-image: url(../assets/images/background.png);  font-family: var(--font-family); margin: 0; padding: 0;}
+
+/* Parts : */
+.logincard {width: 300px; background-color: none; margin-left: auto; margin-right: auto; margin-top: 100px; padding: 10px;}
+.logincard h2 {text-align: center; font-weight: normal; letter-spacing: -0.2px; margin-top: 2px;}
+
+/* mainform */
+.mainform {padding: 15px; background-color: white; border: 1px solid rgb(214, 214, 214); border-radius: 2px; margin-top: -10px;}
+.mainform label {color: #272727; font-size: 12px;}
+.mainform input {width: 96%; padding: 5px; border-radius: 2px; outline: none; border: 1px solid rgb(163, 163, 163); margin: 2px;}
+.mainform a {text-decoration: none; color: #215c98;}
+.mainform a:hover {color: green;}
+.mainform button {width: 100%; margin-left: 3px; padding: 8px; cursor: pointer; color: white; outline: none; background-color: rgb(87, 173, 87); border: 1px solid rgb(163, 163, 163); border-radius: 2px;}
+.mainform button:hover {background-color: rgb(95, 187, 95);}
+
+/* bottomform */
+.bottomform {padding: 0px; background-color: white; border: 1px solid rgb(214, 214, 214); border-radius: 2px;  margin-top: 10px; text-align: center;}
+.bottomform p {font-size: 12px;}
+.bottomform a {text-decoration: none; color: #215c98;}
+.bottomform a:hover {color: green;}
+
+/* list */
+.logincard ul {margin-left: 20px; margin-top: 20px;}
+.logincard ul li {text-decoration: none; color: gray; font-size: 10px; display: inline-block; margin: 5px;}
+.logincard ul li:hover {color: rgb(143, 143, 143);}
