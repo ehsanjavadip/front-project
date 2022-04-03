@@ -1,0 +1,5 @@
+<?php 
+// CodeArticle Home Page
+
+
+?>
