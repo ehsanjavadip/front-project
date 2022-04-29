@@ -1,0 +1,45 @@
+/* ======================================================================
+ *        COMPILED CSS FROM /style.scss
+ * ====================================================================== */
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: #4ebea7;
+}
+
+
+
+.uppercase {
+  text-transform: none;
+}
+
+
+
+.form__field {
+  width: 380px;
+  background: #fff;
+  color: #a3a3a3;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  padding: 10px 10px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  border-radius: 5px;
+  outline: none;
+}
+.form__field:hover {
+  background: whitesmoke;
+}
+
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(128, 145, 241, 0.5);
+}
+
+:-ms-input-placeholder {
+  color: rgba(128, 145, 241, 0.5);
+}

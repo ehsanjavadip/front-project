@@ -1,0 +1,33 @@
+/* Code with [CSS] by Ehsan Javadi | (C) 2022 */
+@import url(./fonts.css);
+
+/* Variables */
+:root {
+    --font-family: Vazir;
+}
+
+body {background-color: #f5f5f5;  font-family: var(--font-family); margin: 0; padding: 0;}
+
+/* Parts : */
+.adminlogincard {width: 300px; background-color: none; margin-left: auto; margin-right: auto; margin-top: 100px; padding: 10px;}
+.adminlogincard h2 {text-align: center; cursor: default; font-weight: normal; letter-spacing: -0.2px; margin-top: -10px;}
+.adminlogincard i {font-size: 50px;}
+/* mainform */
+.mainform {padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color: white; border: 1px solid rgb(214, 214, 214); border-radius: 2px; margin-top: -10px;}
+.mainform label {color: #272727; font-size: 12px;}
+.mainform input {width: 96%; padding: 5px; border-radius: 2px; outline: none; border: 1px solid rgb(163, 163, 163); margin: 2px;}
+.mainform a {text-decoration: none; color: #215c98;}
+.mainform a:hover {color: green;}
+.mainform button {width: 100%; margin-left: 3px; padding: 8px; cursor: pointer; color: white; outline: none; background-color: rgb(87, 173, 87); border: 1px solid rgb(163, 163, 163); border-radius: 2px;}
+.mainform button:hover {background-color: rgb(95, 187, 95);}
+.mainform span {font-size:11px; color: tomato; margin-top: 1px; cursor: default;}
+/* bottomform */
+.bottomform {padding: 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color: white; border: 1px solid rgb(214, 214, 214); border-radius: 2px;  margin-top: 10px; text-align: center;}
+.bottomform p {font-size: 13px;}
+.bottomform a {text-decoration: none; color: #215c98;}
+.bottomform a:hover {color: green;}
+
+/* list */
+.adminlogincard ul {margin-left: 20px; margin-top: 20px;}
+.adminlogincard ul li {text-decoration: none; color: gray; font-size: 10px; display: inline-block; margin: 5px;}
+.adminlogincard ul li:hover {color: rgb(143, 143, 143);}

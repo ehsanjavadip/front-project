@@ -1,0 +1,23 @@
+.card {
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    /* width: 400px; */
+    text-align: center;
+}
+
+.card-body {width: 400px;}
+
+p.articlecode { margin-top: 0px; font-weight: bold;}
+.card-title a {text-decoration: none; text-align: center; margin-right: 0px; font-size: 20px;}
+p.category { text-align: center; font-weight: normal;}
+
+.articlesubject {margin-right: 10px; width: 90%;}
+
+/* Card Buttons : */
+.seemore {width: 70%; border-radius: 10px; cursor: pointer; text-align: center; background-color: #479fc7; padding: 10px; margin-right: -20px; outline: none; border: none; font-family: Vazir; color: white;}
+.seemore:hover {background-color: #6ebce0;}
+.seemore a {text-decoration: none; color: white; text-align: center;}
+.seemore a:hover {color: white;}

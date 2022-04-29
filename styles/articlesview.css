@@ -1,0 +1,43 @@
+/* Code with [CSS] by Ehsan Javadi | (C) 2022 */
+@import url(./fonts.css);
+@import url(./componants/articlecard.css);
+
+/* Variables */
+:root {
+    --font-family: Vazir;
+}
+
+body {background-image: url(../assets/images/background.png);  font-family: var(--font-family); margin: 0; padding: 0;}
+/* Parts : */
+.articleslist {background-color: white; border: 1px solid #d6d6d6; border-radius: 2px; padding: 20px; margin-top: 30px;}
+.articleslist h1 {margin-top:0px; cursor: default; text-align: center;}
+.articleslist p {cursor: default; text-align: center; color: #2c2c2c}
+p.pinfo {margin-top: -10px;} 
+
+/* Grid View of Articles List */
+.grid {display: grid; grid-template-columns: auto auto auto auto; gap: 10px;}
+
+/* Make it Responsive  */
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .grid.grid-2 {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .grid.grid-3 {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .grid.grid-4 {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .grid.grid-1 {
+        grid-template-columns: auto;
+    }
+}
